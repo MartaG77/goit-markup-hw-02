@@ -1,0 +1,72 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+.title {
+  background: #2f303a;
+}
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.h1-button {
+  background: #2196f3;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
+.color-logo {
+  color: #2196f3;
+}
+.menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus,
+.menu-contact:hover,
+.menu-contact:focus {
+  color: #2196f3;
+}
+.menu-contact {
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+}
+.team {
+  font-size: 36px;
+  font-weight: 700;
+  background: #f5f4fa;
+}
+.team-card {
+  font-size: 16px;
+  font-weight: 500;
+}
+.team-position {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: #ffffff;
+}
+.footer-background {
+  background: #2f303a;
+}
+.footer-contact-address {
+  color: #ffffff;
+}
