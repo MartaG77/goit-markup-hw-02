@@ -19,6 +19,15 @@ h1 {
   font-weight: 700;
   color: #ffffff;
 }
+.buttons {
+  background: :#F5F4FA
+  font-size: 16px;
+  font-weight: 500;
+}
+.buttons:hover,
+.buttons:focus {
+  background: #2196f3;git add
+}
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -44,7 +53,11 @@ h1 {
   font-weight: 500;
   color: #757575;
 }
-.team {
+.headin-occupation {
+  font-size: 36px;
+  font-weight: 700;
+}
+.heading-team {
   font-size: 36px;
   font-weight: 700;
   background: #f5f4fa;
@@ -55,7 +68,6 @@ h1 {
 }
 .team-position {
   font-size: 16px;
-  font-weight: 400;
   color: #757575;
 }
 .footer-logo {
@@ -69,4 +81,18 @@ h1 {
 }
 .footer-contact-address {
   color: #ffffff;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: #2196f3;
+}
+.advantages {
+  font-size: 16px;
+  font-weight: 700;
+}
+.advantages-text {
+  font-size: 14px;
 }
