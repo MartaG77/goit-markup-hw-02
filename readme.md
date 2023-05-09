@@ -1,1 +1,1 @@
-https://martag77.github.io/goit-markup-hw-01/
+https://martag77.github.io/goit-markup-hw-02/
