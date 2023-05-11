@@ -6,7 +6,6 @@ li {
 }
 .title {
   background: #2f303a;
-  width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
@@ -16,13 +15,8 @@ h1 {
   font-weight: 900;
   line-height: 1.36;
   color: #ffffff;
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
 }
 .h1-button {
@@ -30,12 +24,13 @@ h1 {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 470px;
   color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+}
+.h1-button:hover {
+  cursor: pointer;
 }
 .buttons {
   background: #f5f4fa;
@@ -46,10 +41,14 @@ h1 {
   height: 38px;
   left: 961px;
   top: 174px;
+  border-radius: 4px;
+  border-style: none;
 }
 .buttons:hover,
 .buttons:focus {
   background: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
 }
 .logo {
   font-family: "Raleway";
@@ -106,6 +105,9 @@ h1 {
   height: 368px;
   left: 215px;
   top: 1635px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .footer-logo {
   font-family: "Raleway";
@@ -142,6 +144,7 @@ h1 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  padding-left: 24px;
 }
 .project-type {
   color: #757575;
